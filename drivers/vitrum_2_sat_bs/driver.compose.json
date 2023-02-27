@@ -1,0 +1,34 @@
+{
+      "id": "vitrum_2_sat_bs",
+      "name": { "en": "Vitrum II Wireless BS" },
+      "images": {
+        "large": "/drivers/vitrum_2_sat_bs/assets/images/large.png",
+        "small": "/drivers/vitrum_2_sat_bs/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 266,
+        "productTypeId": [ 8448, 9216 ],
+        "productId": [ 35328, 41472 ],
+        "learnmode": {
+          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+        },
+        "associationGroups": [],
+        "associationGroupsMultiChannel": [ 1, 2 ],
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_2_sat_bs/assets/icon.svg",
+            "name": { "en": "Switch 1" }
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_2_sat_bs/assets/icon.svg",
+            "name": { "en": "Switch 2" }
+          }
+        }
+      },
+      "capabilities": [],
+      "class": "socket"
+    }

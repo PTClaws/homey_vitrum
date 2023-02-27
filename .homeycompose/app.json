@@ -1,0 +1,28 @@
+{
+  "id": "com.vitrum.manager",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Vitrum manager"
+  },
+  "description": {
+    "en": "Adds support for old and newer vitrum devices"
+  },
+  "category": [
+    "lights"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Wilson Seabra",
+    "email": "wilson@linuxmail.org"
+  }
+}

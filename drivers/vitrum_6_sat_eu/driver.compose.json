@@ -1,0 +1,58 @@
+{
+      "id": "vitrum_6_sat_eu",
+      "name": { "en": "Vitrum VI Wireless EU" },
+      "images": {
+        "large": "/drivers/vitrum_6_sat_eu/assets/images/large.png",
+        "small": "/drivers/vitrum_6_sat_eu/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 266,
+        "productTypeId": [ 4352, 5120, 13312, 17408 ],
+        "productId": [ 19712, 26112 ],
+        "learnmode": {
+          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+        },
+        "associationGroups": [],
+        "associationGroupsMultiChannel": [ 1, 2, 3, 4, 5, 6 ],
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 1" }
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 2" }
+          },
+          "3": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 3" }
+          },
+          "4": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 4" }
+          },
+          "5": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 5" }
+          },
+          "6": {
+            "class": "socket",
+            "capabilities": [ "onoff", "dim" ],
+            "icon": "/drivers/vitrum_6_sat_eu/assets/icon.svg",
+            "name": { "en": "Switch 6" }
+          }
+        }
+      },
+      "capabilities": [],
+      "class": "socket"
+    }

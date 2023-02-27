@@ -1,0 +1,40 @@
+{
+      "id": "vitrum_3_onoff_eu",
+      "name": { "en": "Vitrum III On-Off EU" },
+      "images": {
+        "large": "/drivers/vitrum_3_onoff_eu/assets/images/large.png",
+        "small": "/drivers/vitrum_3_onoff_eu/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 266,
+        "productTypeId": [ 4608, 4609, 12800, 16896 ],
+        "productId": [ 21248, 21249, 37632 ],
+        "learnmode": {
+          "instruction": { "en": "Press left button to include. Hold the left button for 8 seconds to exclude" }
+        },
+        "associationGroups": [],
+        "associationGroupsMultiChannel": [ 1, 2, 3 ],
+        "multiChannelNodes": {
+          "1": {
+            "class": "socket",
+            "capabilities": [ "onoff" ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": { "en": "Switch 1" }
+          },
+          "2": {
+            "class": "socket",
+            "capabilities": [ "onoff" ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": { "en": "Switch 2" }
+          },
+          "3": {
+            "class": "socket",
+            "capabilities": [ "onoff" ],
+            "icon": "/drivers/vitrum_3_onoff_eu/assets/icon.svg",
+            "name": { "en": "Switch 3" }
+          }
+        }
+      },
+      "capabilities": [],
+      "class": "socket"
+    }
